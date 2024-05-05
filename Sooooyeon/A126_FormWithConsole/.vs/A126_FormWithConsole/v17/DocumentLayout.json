@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\test1\\Desktop\\C# 200\uC81C \uC608\uC81C \uCF54\uB4DC\\CSharp200\\Sooooyeon\\A126_FormWithConsole\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF4B5BA-A348-4974-A22F-B2C643EDC2B6}|A126_FormWithConsole\\A126_FormWithConsole.csproj|c:\\users\\test1\\desktop\\c# 200\uC81C \uC608\uC81C \uCF54\uB4DC\\csharp200\\sooooyeon\\a126_formwithconsole\\a126_formwithconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EF4B5BA-A348-4974-A22F-B2C643EDC2B6}|A126_FormWithConsole\\A126_FormWithConsole.csproj|solutionrelative:a126_formwithconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF4B5BA-A348-4974-A22F-B2C643EDC2B6}|A126_FormWithConsole\\A126_FormWithConsole.csproj|c:\\users\\test1\\desktop\\c# 200\uC81C \uC608\uC81C \uCF54\uB4DC\\csharp200\\sooooyeon\\a126_formwithconsole\\a126_formwithconsole\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6EF4B5BA-A348-4974-A22F-B2C643EDC2B6}|A126_FormWithConsole\\A126_FormWithConsole.csproj|solutionrelative:a126_formwithconsole\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\test1\\Desktop\\C# 200\uC81C \uC608\uC81C \uCF54\uB4DC\\CSharp200\\Sooooyeon\\A126_FormWithConsole\\A126_FormWithConsole\\Program.cs",
+              "RelativeDocumentMoniker": "A126_FormWithConsole\\Program.cs",
+              "ToolTip": "C:\\Users\\test1\\Desktop\\C# 200\uC81C \uC608\uC81C \uCF54\uB4DC\\CSharp200\\Sooooyeon\\A126_FormWithConsole\\A126_FormWithConsole\\Program.cs",
+              "RelativeToolTip": "A126_FormWithConsole\\Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAIwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T15:57:39.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\test1\\Desktop\\C# 200\uC81C \uC608\uC81C \uCF54\uB4DC\\CSharp200\\Sooooyeon\\A126_FormWithConsole\\A126_FormWithConsole\\Form1.cs",
+              "RelativeDocumentMoniker": "A126_FormWithConsole\\Form1.cs",
+              "ToolTip": "C:\\Users\\test1\\Desktop\\C# 200\uC81C \uC608\uC81C \uCF54\uB4DC\\CSharp200\\Sooooyeon\\A126_FormWithConsole\\A126_FormWithConsole\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "A126_FormWithConsole\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T15:57:20.217Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
