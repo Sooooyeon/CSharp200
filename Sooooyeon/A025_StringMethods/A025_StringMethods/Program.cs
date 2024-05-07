@@ -15,7 +15,7 @@ namespace A025_StringMethods
             Console.WriteLine(s.PadLeft(20, '.'));
             Console.WriteLine(s.PadRight(20, '.'));
             Console.WriteLine(s.Remove(6));
-            // Console.WriteLine(s.Remove(6,7));
+            Console.WriteLine(s.Remove(6,5));
             Console.WriteLine(s.Replace('l', 'm'));
             Console.WriteLine(s.ToLower());
             Console.WriteLine(s.ToUpper());
@@ -30,11 +30,11 @@ namespace A025_StringMethods
             }
 
             char[] destination = new char[10];
-            s.CopyTo(8, destination, 0, 6);
+            s.CopyTo(8, destination, 0, 3);
             Console.WriteLine(destination);
 
             Console.WriteLine('/' + s.Substring(8) + '/');
-            Console.WriteLine('/' + s.Substring(8,5) + '/');
+            Console.WriteLine('/' + s.Substring(8,3) + '/');
 
             Console.WriteLine(s.Contains("11"));
             Console.WriteLine(s.IndexOf('o'));
