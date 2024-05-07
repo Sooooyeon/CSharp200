@@ -1,0 +1,15 @@
+/Users/jangsooyeon/Desktop/c#200제/CSharp200/Sooooyeon/A025_StringMethods/A025_StringMethods/bin/Debug/net7.0/A025_StringMethods
+/Users/jangsooyeon/Desktop/c#200제/CSharp200/Sooooyeon/A025_StringMethods/A025_StringMethods/bin/Debug/net7.0/A025_StringMethods.deps.json
+/Users/jangsooyeon/Desktop/c#200제/CSharp200/Sooooyeon/A025_StringMethods/A025_StringMethods/bin/Debug/net7.0/A025_StringMethods.runtimeconfig.json
+/Users/jangsooyeon/Desktop/c#200제/CSharp200/Sooooyeon/A025_StringMethods/A025_StringMethods/bin/Debug/net7.0/A025_StringMethods.dll
+/Users/jangsooyeon/Desktop/c#200제/CSharp200/Sooooyeon/A025_StringMethods/A025_StringMethods/bin/Debug/net7.0/A025_StringMethods.pdb
+/Users/jangsooyeon/Desktop/c#200제/CSharp200/Sooooyeon/A025_StringMethods/A025_StringMethods/obj/Debug/net7.0/A025_StringMethods.csproj.AssemblyReference.cache
+/Users/jangsooyeon/Desktop/c#200제/CSharp200/Sooooyeon/A025_StringMethods/A025_StringMethods/obj/Debug/net7.0/A025_StringMethods.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jangsooyeon/Desktop/c#200제/CSharp200/Sooooyeon/A025_StringMethods/A025_StringMethods/obj/Debug/net7.0/A025_StringMethods.AssemblyInfoInputs.cache
+/Users/jangsooyeon/Desktop/c#200제/CSharp200/Sooooyeon/A025_StringMethods/A025_StringMethods/obj/Debug/net7.0/A025_StringMethods.AssemblyInfo.cs
+/Users/jangsooyeon/Desktop/c#200제/CSharp200/Sooooyeon/A025_StringMethods/A025_StringMethods/obj/Debug/net7.0/A025_StringMethods.csproj.CoreCompileInputs.cache
+/Users/jangsooyeon/Desktop/c#200제/CSharp200/Sooooyeon/A025_StringMethods/A025_StringMethods/obj/Debug/net7.0/A025_StringMethods.dll
+/Users/jangsooyeon/Desktop/c#200제/CSharp200/Sooooyeon/A025_StringMethods/A025_StringMethods/obj/Debug/net7.0/refint/A025_StringMethods.dll
+/Users/jangsooyeon/Desktop/c#200제/CSharp200/Sooooyeon/A025_StringMethods/A025_StringMethods/obj/Debug/net7.0/A025_StringMethods.pdb
+/Users/jangsooyeon/Desktop/c#200제/CSharp200/Sooooyeon/A025_StringMethods/A025_StringMethods/obj/Debug/net7.0/A025_StringMethods.genruntimeconfig.cache
+/Users/jangsooyeon/Desktop/c#200제/CSharp200/Sooooyeon/A025_StringMethods/A025_StringMethods/obj/Debug/net7.0/ref/A025_StringMethods.dll
