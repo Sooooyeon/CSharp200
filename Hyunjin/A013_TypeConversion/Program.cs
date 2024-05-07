@@ -12,7 +12,7 @@ namespace A013_TypeConversion
         {
             int num = 2147483647;
             long bigNum = num;
-                 
+
             Console.WriteLine(bigNum);
 
             double x = 1234.5;
