@@ -27,7 +27,7 @@ namespace A027_StringConcat
 
             string[] animal = { "mouse", "cow", "tiger", "rabbit", "dragon" };
             string s = String.Concat(animal);
-            Console.WriteLine(s);
+            Console.WriteLine(s); 
 
             s = String.Join(",", animal);
             Console.WriteLine(s);
