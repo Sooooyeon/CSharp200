@@ -4,28 +4,32 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
-namespace A129_FormClass2
+namespace A131_BasicControls
 {
     public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
-            this.ClientSize = new Size(500, 500);
-
-            Form f2 = new Form2(); //폼 객체 생성 
-            this.AddOwnedForm(f2); 
-
-            f2.Show();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+           
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "")
+                MessageBox.Show("이름을 입력하세요", "Warning");
+            else 
+                label2.Text = textBox1.Text + "님! 안녕하세요!";
         }
     }
 }
