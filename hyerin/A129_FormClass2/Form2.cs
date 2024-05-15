@@ -10,20 +10,15 @@ using System.Windows.Forms;
 
 namespace A129_FormClass2
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
-            this.ClientSize = new Size(500, 500);
-
-            Form f2 = new Form2(); //폼 객체 생성 
-            this.AddOwnedForm(f2); 
-
-            f2.Show();
+            this.ClientSize = new Size(300, 200);
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Form2_Load(object sender, EventArgs e)
         {
 
         }
