@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A125_WinFormApp", "A125_Win
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A126_FormWithConsole", "A126_FormWithConsole\A126_FormWithConsole\A126_FormWithConsole.csproj", "{20DE12A3-85C9-4617-948F-06A4D119DB07}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A127_WinFormHello", "A127_WinFormHello\A127_WinFormHello.csproj", "{37D57575-0DFE-407B-B39C-AA4073224A80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{20DE12A3-85C9-4617-948F-06A4D119DB07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20DE12A3-85C9-4617-948F-06A4D119DB07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20DE12A3-85C9-4617-948F-06A4D119DB07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37D57575-0DFE-407B-B39C-AA4073224A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D57575-0DFE-407B-B39C-AA4073224A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D57575-0DFE-407B-B39C-AA4073224A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D57575-0DFE-407B-B39C-AA4073224A80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
