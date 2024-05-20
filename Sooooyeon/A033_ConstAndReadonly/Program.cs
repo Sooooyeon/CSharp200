@@ -4,11 +4,13 @@ namespace A033_ConstAndReadonly
 {
     class ConstEx
     {
+        // const - 선언될 때 값이 할당됨
         public const int number = 3;
     }
 
     class ReadonlyEx
     {
+        // readonly - 실행될 때 또는 객체가 생성자에 의해 초기화 될 때 값이 할당됨
         public readonly int number = 10;
         public ReadonlyEx()
         {
