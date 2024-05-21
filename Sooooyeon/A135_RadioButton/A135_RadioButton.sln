@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A135_RadioButton", "A135_RadioButton.csproj", "{BB31AE30-3AA3-4180-9687-15257CFA3D0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB31AE30-3AA3-4180-9687-15257CFA3D0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB31AE30-3AA3-4180-9687-15257CFA3D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB31AE30-3AA3-4180-9687-15257CFA3D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB31AE30-3AA3-4180-9687-15257CFA3D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FB06C12-8B5A-469F-ADCE-4D99ACD4D22F}
+	EndGlobalSection
+EndGlobal
