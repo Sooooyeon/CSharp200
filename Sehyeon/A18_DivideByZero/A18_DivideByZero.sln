@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A18_DivideByZero", "A18_DivideByZero.csproj", "{71EF862F-8412-4C2D-9AAE-53240CF78E8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71EF862F-8412-4C2D-9AAE-53240CF78E8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71EF862F-8412-4C2D-9AAE-53240CF78E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71EF862F-8412-4C2D-9AAE-53240CF78E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71EF862F-8412-4C2D-9AAE-53240CF78E8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A86262F7-2BD1-456F-A965-3739C33F3767}
+	EndGlobalSection
+EndGlobal
