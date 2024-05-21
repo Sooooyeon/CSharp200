@@ -7,8 +7,8 @@
 |      주차      | 문제 | 김세현<br><img src="https://cdn-icons-png.flaticon.com/256/25/25231.png" width=20><br>[hyonie-Kim](https://github.com/hyonie-Kim) | 박관순<br><img src="https://cdn-icons-png.flaticon.com/256/25/25231.png" width=20>[flution](https://github.com/flution) | 박현진<br><img src="https://cdn-icons-png.flaticon.com/256/25/25231.png" width=20>[Hyunjin07](https://github.com/Hyunjin07) | 이혜린<br><img src="https://cdn-icons-png.flaticon.com/256/25/25231.png" width=20>[lhr0055](https://github.com/lhr0055) | 장수연<br><img src="https://cdn-icons-png.flaticon.com/256/25/25231.png" width=20>[Sooooyeon](https://github.com/Sooooyeon) | 홍지민<br><img src="https://cdn-icons-png.flaticon.com/256/25/25231.png" width=20>[jiiminhong](https://github.com/jiiminhong) | 김태훈<br><img src="https://cdn-icons-png.flaticon.com/256/25/25231.png" width=20>[thk8lue](https://github.com/thk8lue) |
 | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
 | Week 01</br> |  013, 015, 018, 019, 025, 026, 125, 126, 127, 128 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅  | -
-| Week 02</br> | 027, 028, 029, 030, 031, 032, 129, 130, 131, 132 | 🏃🏻‍♀️ | ✅ | ✅ | ✅ | ✅ | ✅  | ✅
-| Week 03</br> | 033, 034, 035, 036, 037, 038, 133, 134, 135, 136  | 🏃🏻‍♀️ | ✅ | 🏃🏻‍♀️ | ✅ | 🏃🏻‍♀️ | 🏃🏻‍♀️ |🏃🏻‍♂️ |   
+| Week 02</br> | 027, 028, 029, 030, 031, 032, 129, 130, 131, 132 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅  | ✅
+| Week 03</br> | 033, 034, 035, 036, 037, 038, 133, 134, 135, 136  | ✅ | ✅ | 🏃🏻‍♀️ | ✅ | 🏃🏻‍♀️ | 🏃🏻‍♀️ |🏃🏻‍♂️ |   
 | Week 04</br> |  |  |  |  |  |  |  |   
 | Week 05</br> |  |  |  |  |  |  |  |   
 | Week 06</br> |  |  |  |  |  |  |  |   
