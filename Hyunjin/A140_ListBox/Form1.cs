@@ -57,7 +57,7 @@ namespace A140_ListBox
         {
             ListBox lst = sender as ListBox;
             txtSIndex3.Text = lst.SelectedIndex.ToString();
-            txtSItem3.Text = lst.SelectedItem.ToString();g
+            txtSItem3.Text = lst.SelectedItem.ToString();
         }
     }
 }
