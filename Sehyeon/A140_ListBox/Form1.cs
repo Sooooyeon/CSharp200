@@ -35,20 +35,28 @@ namespace A140_ListBox
 
         }
 
+     
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             ListBox lst = sender as ListBox;
-            //txtSIndex1.Text = lst.SelectedIndex
-        }
+            txtSIndex1.Text = lst.SelectedIndex.ToString();
+            txtSItem1.Text = lst.SelectedItem.ToString();
+            
+        }   
 
         private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            ListBox lst = sender as ListBox;
+            txtSIndex2.Text = lst.SelectedIndex.ToString();
+            txtSItem2.Text = lst.SelectedItem.ToString();
         }
 
         private void listBox3_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            ListBox lst = sender as ListBox;
+            txtSIndex3.Text = lst.SelectedIndex.ToString();
+            txtSItem13.Text = lst.SelectedItem.ToString();
         }
+
     }
 }

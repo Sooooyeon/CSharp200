@@ -34,8 +34,8 @@
             this.listBox3 = new System.Windows.Forms.ListBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.SelectedIndex = new System.Windows.Forms.Label();
+            this.SelectedItem = new System.Windows.Forms.Label();
             this.txtSIndex1 = new System.Windows.Forms.TextBox();
             this.txtSItem1 = new System.Windows.Forms.TextBox();
             this.txtSItem2 = new System.Windows.Forms.TextBox();
@@ -101,23 +101,23 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "행복한 나라";
             // 
-            // label4
+            // SelectedIndex
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(22, 225);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(89, 12);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "SelectedIndex:";
+            this.SelectedIndex.AutoSize = true;
+            this.SelectedIndex.Location = new System.Drawing.Point(22, 225);
+            this.SelectedIndex.Name = "SelectedIndex";
+            this.SelectedIndex.Size = new System.Drawing.Size(85, 12);
+            this.SelectedIndex.TabIndex = 6;
+            this.SelectedIndex.Text = "SelectedIndex";
             // 
-            // label5
+            // SelectedItem
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(22, 257);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(82, 12);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "SelectedItem:";
+            this.SelectedItem.AutoSize = true;
+            this.SelectedItem.Location = new System.Drawing.Point(22, 257);
+            this.SelectedItem.Name = "SelectedItem";
+            this.SelectedItem.Size = new System.Drawing.Size(82, 12);
+            this.SelectedItem.TabIndex = 7;
+            this.SelectedItem.Text = "SelectedItem:";
             // 
             // txtSIndex1
             // 
@@ -125,7 +125,7 @@
             this.txtSIndex1.Name = "txtSIndex1";
             this.txtSIndex1.Size = new System.Drawing.Size(100, 21);
             this.txtSIndex1.TabIndex = 8;
-            this.txtSIndex1.TextChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            this.txtSIndex1.Text = "txtSIndex1";
             // 
             // txtSItem1
             // 
@@ -173,8 +173,8 @@
             this.Controls.Add(this.txtSIndex2);
             this.Controls.Add(this.txtSItem1);
             this.Controls.Add(this.txtSIndex1);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.SelectedItem);
+            this.Controls.Add(this.SelectedIndex);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.listBox3);
@@ -197,8 +197,8 @@
         private System.Windows.Forms.ListBox listBox3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label SelectedIndex;
+        private System.Windows.Forms.Label SelectedItem;
         private System.Windows.Forms.TextBox txtSIndex1;
         private System.Windows.Forms.TextBox txtSItem1;
         private System.Windows.Forms.TextBox txtSItem2;
