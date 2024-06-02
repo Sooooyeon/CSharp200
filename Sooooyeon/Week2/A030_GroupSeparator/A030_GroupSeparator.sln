@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A030_GroupSeparator", "A030_GroupSeparator\A030_GroupSeparator.csproj", "{48B24952-00D6-4703-B72A-0FDDD908E51A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48B24952-00D6-4703-B72A-0FDDD908E51A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48B24952-00D6-4703-B72A-0FDDD908E51A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48B24952-00D6-4703-B72A-0FDDD908E51A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48B24952-00D6-4703-B72A-0FDDD908E51A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6ACB6B09-8840-4835-AFE6-03B2CF6BC76E}
+	EndGlobalSection
+EndGlobal
