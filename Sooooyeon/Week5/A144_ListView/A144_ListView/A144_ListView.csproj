@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{10064A0E-5CC6-455F-823B-0E1EC05FF127}</ProjectGuid>
+    <ProjectGuid>{85052545-3059-4359-A4CF-6C0B96CAD2F8}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>A143_GradeCalc</RootNamespace>
-    <AssemblyName>A143_GradeCalc</AssemblyName>
+    <RootNamespace>A144_ListView</RootNamespace>
+    <AssemblyName>A144_ListView</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -78,6 +78,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Image\access.png" />
+    <Content Include="Image\excel.png" />
+    <Content Include="Image\outlook.png" />
+    <Content Include="Image\ppt.png" />
+    <Content Include="Image\word.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -53,7 +53,7 @@
             this.crd7 = new System.Windows.Forms.ComboBox();
             this.txt7 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtGrade = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -252,20 +252,21 @@
             this.button1.TabIndex = 24;
             this.button1.Text = "평균평점";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox8
+            // txtGrade
             // 
-            this.textBox8.Location = new System.Drawing.Point(356, 262);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(121, 21);
-            this.textBox8.TabIndex = 25;
+            this.txtGrade.Location = new System.Drawing.Point(356, 262);
+            this.txtGrade.Name = "txtGrade";
+            this.txtGrade.Size = new System.Drawing.Size(121, 21);
+            this.txtGrade.TabIndex = 25;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(507, 328);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.txtGrade);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.grd7);
             this.Controls.Add(this.crd7);
@@ -326,7 +327,7 @@
         private System.Windows.Forms.ComboBox crd7;
         private System.Windows.Forms.TextBox txt7;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox txtGrade;
     }
 }
 
