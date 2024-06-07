@@ -4,15 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{081FCDBB-BAB3-47F7-86DB-4D8247E9AC7A}</ProjectGuid>
+    <ProjectGuid>{97C8715B-545C-442B-AD44-5205A48ED6B5}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>A133_Flag</RootNamespace>
-    <AssemblyName>A133_Flag</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RootNamespace>A147_Timer</RootNamespace>
+    <AssemblyName>A147_Timer</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
