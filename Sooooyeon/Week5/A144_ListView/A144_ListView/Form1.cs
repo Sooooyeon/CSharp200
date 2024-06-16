@@ -24,7 +24,7 @@ namespace A144_ListView
 
             myListView.Columns.Add("제품명", 150);
             myListView.Columns.Add("단가", 100, HorizontalAlignment.Right);
-            myListView.Columns.Add("수랑", 70, HorizontalAlignment.Right);
+            myListView.Columns.Add("수량", 70, HorizontalAlignment.Right);
             myListView.Columns.Add("금액", 100, HorizontalAlignment.Right);
 
             ListViewItem item1 = new ListViewItem("Access", 0);
@@ -76,6 +76,42 @@ namespace A144_ListView
             lImageList.Images.Add(Bitmap.FromFile(@"../../Image/word.png"));
 
 
+        }
+
+        private void rbDetail_CheckedChanged(object sender, EventArgs e)
+        {
+            myListView.View = View.Details;
+
+        }
+
+        private void rbList_CheckedChanged(object sender, EventArgs e)
+        {
+            myListView.View =View.List;
+        }
+
+        private void rbSmall_CheckedChanged(object sender, EventArgs e)
+        {
+            myListView.View = View.SmallIcon;
+        }
+
+        private void rbLarge_CheckedChanged(object sender, EventArgs e)
+        {
+            myListView.View = View.LargeIcon;
+        }
+
+        private void myListView_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            ListView.SelectedListViewItemCollection selected
+                = myListView.SelectedItems;
+            
+            foreach (ListViewItem item in selected)
+            {
+                for(int i = 0; i < 4; i++)
+                {
+                    textBox1.Text += item.SubItems[i].Text + "\t";
+                }
+            }
         }
     }
 }

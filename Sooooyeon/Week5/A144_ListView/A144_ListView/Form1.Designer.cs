@@ -28,58 +28,62 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.rbDetail = new System.Windows.Forms.RadioButton();
+            this.rbList = new System.Windows.Forms.RadioButton();
+            this.rbSmall = new System.Windows.Forms.RadioButton();
+            this.rbLarge = new System.Windows.Forms.RadioButton();
             this.myListView = new System.Windows.Forms.ListView();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // radioButton1
+            // rbDetail
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(48, 24);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(59, 16);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "자세히";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rbDetail.AutoSize = true;
+            this.rbDetail.Location = new System.Drawing.Point(48, 24);
+            this.rbDetail.Name = "rbDetail";
+            this.rbDetail.Size = new System.Drawing.Size(59, 16);
+            this.rbDetail.TabIndex = 0;
+            this.rbDetail.TabStop = true;
+            this.rbDetail.Text = "자세히";
+            this.rbDetail.UseVisualStyleBackColor = true;
+            this.rbDetail.CheckedChanged += new System.EventHandler(this.rbDetail_CheckedChanged);
             // 
-            // radioButton2
+            // rbList
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(161, 24);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(59, 16);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "리스트";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rbList.AutoSize = true;
+            this.rbList.Location = new System.Drawing.Point(161, 24);
+            this.rbList.Name = "rbList";
+            this.rbList.Size = new System.Drawing.Size(59, 16);
+            this.rbList.TabIndex = 1;
+            this.rbList.TabStop = true;
+            this.rbList.Text = "리스트";
+            this.rbList.UseVisualStyleBackColor = true;
+            this.rbList.CheckedChanged += new System.EventHandler(this.rbList_CheckedChanged);
             // 
-            // radioButton3
+            // rbSmall
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(274, 24);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(87, 16);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "작은 아이콘";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rbSmall.AutoSize = true;
+            this.rbSmall.Location = new System.Drawing.Point(274, 24);
+            this.rbSmall.Name = "rbSmall";
+            this.rbSmall.Size = new System.Drawing.Size(87, 16);
+            this.rbSmall.TabIndex = 2;
+            this.rbSmall.TabStop = true;
+            this.rbSmall.Text = "작은 아이콘";
+            this.rbSmall.UseVisualStyleBackColor = true;
+            this.rbSmall.CheckedChanged += new System.EventHandler(this.rbSmall_CheckedChanged);
             // 
-            // radioButton4
+            // rbLarge
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(415, 24);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(75, 16);
-            this.radioButton4.TabIndex = 3;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "큰 아이콘";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.rbLarge.AutoSize = true;
+            this.rbLarge.Location = new System.Drawing.Point(415, 24);
+            this.rbLarge.Name = "rbLarge";
+            this.rbLarge.Size = new System.Drawing.Size(75, 16);
+            this.rbLarge.TabIndex = 3;
+            this.rbLarge.TabStop = true;
+            this.rbLarge.Text = "큰 아이콘";
+            this.rbLarge.UseVisualStyleBackColor = true;
+            this.rbLarge.CheckedChanged += new System.EventHandler(this.rbLarge_CheckedChanged);
             // 
             // myListView
             // 
@@ -89,6 +93,7 @@
             this.myListView.Size = new System.Drawing.Size(442, 189);
             this.myListView.TabIndex = 4;
             this.myListView.UseCompatibleStateImageBehavior = false;
+            this.myListView.SelectedIndexChanged += new System.EventHandler(this.myListView_SelectedIndexChanged);
             // 
             // textBox1
             // 
@@ -114,10 +119,10 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.myListView);
-            this.Controls.Add(this.radioButton4);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.rbLarge);
+            this.Controls.Add(this.rbSmall);
+            this.Controls.Add(this.rbList);
+            this.Controls.Add(this.rbDetail);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -128,10 +133,10 @@
 
         #endregion
 
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.RadioButton rbDetail;
+        private System.Windows.Forms.RadioButton rbList;
+        private System.Windows.Forms.RadioButton rbSmall;
+        private System.Windows.Forms.RadioButton rbLarge;
         private System.Windows.Forms.ListView myListView;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
