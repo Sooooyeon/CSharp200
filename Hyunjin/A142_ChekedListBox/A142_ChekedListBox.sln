@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A142_ChekedListBox", "A142_ChekedListBox.csproj", "{9EFBF2B4-55FA-49E1-847C-5F85F4218258}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EFBF2B4-55FA-49E1-847C-5F85F4218258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EFBF2B4-55FA-49E1-847C-5F85F4218258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EFBF2B4-55FA-49E1-847C-5F85F4218258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EFBF2B4-55FA-49E1-847C-5F85F4218258}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7789114A-70E5-43D3-A4B2-5B49D8A73D10}
+	EndGlobalSection
+EndGlobal

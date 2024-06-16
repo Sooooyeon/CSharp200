@@ -30,8 +30,7 @@ namespace A144_ListView
             ListViewItem item1 = new ListViewItem("Access", 0);
             ListViewItem item2 = new ListViewItem("Excel", 1);
             ListViewItem item3 = new ListViewItem("PowerPoint", 2);
-            ListViewItem item4 = new ListViewItem("Outlook", 3);
-            ListViewItem item5 = new ListViewItem("Word", 4);
+            ListViewItem item4 = new ListViewItem("Word", 3);
 
             item1.SubItems.Add("22,000");
             item1.SubItems.Add("30");
@@ -45,48 +44,59 @@ namespace A144_ListView
             item3.SubItems.Add("50");
             item3.SubItems.Add("550,000");
 
-            item4.SubItems.Add("33,000");
-            item4.SubItems.Add("40");
-            item4.SubItems.Add("1,320,000");
+            item4.SubItems.Add("22,000");
+            item4.SubItems.Add("30");
+            item4.SubItems.Add("660,000");
 
-            item5.SubItems.Add("22,000");
-            item5.SubItems.Add("30");
-            item5.SubItems.Add("660,000");
-
-            myListView.Items.AddRange(new ListViewItem[] {item1, item2, item3, item4, item5});
+            myListView.Items.AddRange(new ListViewItem[] { item1, item2, item3, item4 });
 
             ImageList sImageList = new ImageList();
             sImageList.ImageSize = new Size(24, 24);
+
             ImageList lImageList = new ImageList();
             lImageList.ImageSize = new Size(64, 64);
 
             myListView.SmallImageList = sImageList;
             myListView.LargeImageList = lImageList;
 
-            sImageList.Images.Add(Bitmap.FromFile(@"../../Image/access.png"));
-            sImageList.Images.Add(Bitmap.FromFile(@"../../Image/excel.png"));
-            sImageList.Images.Add(Bitmap.FromFile(@"../../Image/ppt.png"));
-            sImageList.Images.Add(Bitmap.FromFile(@"../../Image/outlook.png"));
-            sImageList.Images.Add(Bitmap.FromFile(@"../../Image/word.png"));
+            sImageList.Images.Add(Bitmap.FromFile(@"../../images/access.png"));
+            sImageList.Images.Add(Bitmap.FromFile(@"../../images/excel.png"));
+            sImageList.Images.Add(Bitmap.FromFile(@"../../images/ppt.png"));
+            sImageList.Images.Add(Bitmap.FromFile(@"../../images/word.png"));
 
-            lImageList.Images.Add(Bitmap.FromFile(@"../../Image/access.png"));
-            lImageList.Images.Add(Bitmap.FromFile(@"../../Image/excel.png"));
-            lImageList.Images.Add(Bitmap.FromFile(@"../../Image/ppt.png"));
-            lImageList.Images.Add(Bitmap.FromFile(@"../../Image/outlook.png"));
-            lImageList.Images.Add(Bitmap.FromFile(@"../../Image/word.png"));
+            lImageList.Images.Add(Bitmap.FromFile(@"../../images/access.png"));
+            lImageList.Images.Add(Bitmap.FromFile(@"../../images/excel.png"));
+            lImageList.Images.Add(Bitmap.FromFile(@"../../images/ppt.png"));
+            lImageList.Images.Add(Bitmap.FromFile(@"../../images/word.png"));
+            
+        }
 
 
+
+        
+        private void myListView_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            txtSelected.Text = "";
+            ListView.SelectedListViewItemCollection selected
+                = myListView.SelectedItems;
+
+            foreach(ListViewItem item in selected)
+            {
+                for (int i = 0; i < 4; i++)
+                {
+                    txtSelected.Text += item.SubItems[i].Text + "\t";
+                }
+            }
         }
 
         private void rbDetail_CheckedChanged(object sender, EventArgs e)
         {
             myListView.View = View.Details;
-
         }
 
         private void rbList_CheckedChanged(object sender, EventArgs e)
         {
-            myListView.View =View.List;
+            myListView.View = View.List;
         }
 
         private void rbSmall_CheckedChanged(object sender, EventArgs e)
@@ -97,21 +107,6 @@ namespace A144_ListView
         private void rbLarge_CheckedChanged(object sender, EventArgs e)
         {
             myListView.View = View.LargeIcon;
-        }
-
-        private void myListView_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            textBox1.Text = "";
-            ListView.SelectedListViewItemCollection selected
-                = myListView.SelectedItems;
-            
-            foreach (ListViewItem item in selected)
-            {
-                for(int i = 0; i < 4; i++)
-                {
-                    textBox1.Text += item.SubItems[i].Text + "\t";
-                }
-            }
         }
     }
 }
